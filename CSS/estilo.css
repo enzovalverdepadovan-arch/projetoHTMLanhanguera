@@ -1,0 +1,65 @@
+body{
+    background-color: #332E2D;
+    font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+    font-size:20px;
+    margin: 0;
+    padding: 0;
+    /* margins e paddings são sempre feitos em sentido anti horário */
+}
+/* Formatar cabeçalho*/
+header{
+    width:99.9%;/* largura*/
+    height: 300px;/*altura*/
+    border:2px outset #0D0D0D;
+    background-color: #400101;
+    margin-bottom: 5%;
+    color: #FFB500;
+    /*padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;*/
+    text-align: center;
+
+}
+
+.artigos{ /*uma classe é chamada com um Ponto*/
+    
+    width: 100%;
+    height: 100px;
+    background-color: #400101;
+    border: 2px dashed #0D0D0D;
+    text-align: center;
+    color: #FFB500;
+    margin-bottom: 5%;
+}
+
+#primeiraDiv{ /*Um id é chamando com uma Hashtag*/
+    background-color: #A60303;
+}
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 100%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: #121221;
+    color: #FFB500;
+}
+
+header nav ul a{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.botao{
+    border: 2px solid #fff;
+    margin-left: 1%;
+    width: 15%;
+}
+
+#paginaInicial{
+    margin-left: 1%;
+}
