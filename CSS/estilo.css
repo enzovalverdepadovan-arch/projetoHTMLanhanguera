@@ -48,16 +48,26 @@ footer{
     color: #FFB500;
 }
 
+/*
 header nav ul a{
     display: flex;
     list-style-type: none;
     text-decoration: none;
-}
+}*/
 
 .botao{
+    display: inline-block;
+    color:#fff;
+    background-color:#000;
     border: 2px solid #fff;
+    font-weight: bold ; 
     margin-left: 1%;
     width: 15%;
+}
+
+.botao:hover{
+    color: #FFB500;
+    background-color: #332E2D;
 }
 
 #paginaInicial{
